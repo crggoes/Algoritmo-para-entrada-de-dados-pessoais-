@@ -1,0 +1,39 @@
+# Algoritmo-para-entrada-de-dados-pessoais-
+"Dados Pessoais"
+
+
+// Declaração das variáveis
+    nome: caractere
+    endereco: caractere
+    cidade: caractere
+    cpf: caractere
+    rg: caractere
+    
+    // Solicitar ao usuário que informe seus dados pessoais
+Inicio
+    Escreva("Por favor, informe seus dados pessoais:")
+    
+    Escreva("Nome:")
+    Leia(Nome)
+    
+    Escreva("Endereço:")
+    Leia(Endereco)
+    
+    Escreva("Cidade:")
+    Leia(Cidade)
+    
+    Escreva("CPF:")
+    Leia(CPF)
+    
+    Escreva("RG:")
+    Leia(RG)
+    
+    // Apresentar os dados informados pelo usuário
+    Escreva("Dados pessoais informados:")
+    Escreva("Nome: ", nome)
+    Escreva("Endereço: ", endereco)
+    Escreva("Cidade: ", cidade)
+    Escreva("CPF: ", cpf)
+    Escreva("RG: ", rg)
+    
+Fim do algoritmo
